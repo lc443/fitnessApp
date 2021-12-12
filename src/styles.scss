@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+
+    //prevents horizontal srolling
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-image: url("./assets/img/fitr-main-1.png");
+}

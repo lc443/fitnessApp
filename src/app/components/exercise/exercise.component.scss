@@ -1,0 +1,25 @@
+.exercise-background {
+    margin: 3rem;
+  }
+  .card {
+    max-width: 22rem; 
+    min-height: 180px; 
+    border-radius: 0.75rem;
+    box-shadow: rgba(29, 67, 110, 0.7) 0px 4px 24px;
+  }
+  
+  .card-title {
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 800;
+   
+  }
+  
+  .exercise-card {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-row-gap: 2rem;
+    grid-row-gap: 3rem;
+  
+  }
+  
