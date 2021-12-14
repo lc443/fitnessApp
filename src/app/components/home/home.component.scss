@@ -1,41 +1,96 @@
+$blue-100: hsl(220, 55%, 13%);
+$blue-500: hsl(220, 80%, 55%);
+$blue-700: hsl(220, 80%, 75%);
+$gray-600: hsl(246, 6%, 65%);
+$background: hsl(250, 24%, 9%);
 
-  
-  .hero-header {
-    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: white;
-    font-size: 64px;
-    font-weight: 700;
-    width: 100%;
-    margin: 10rem 0 2rem 5rem;
+.hero-header {
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  width: 100%;
+  margin: 10rem 0 2rem 5rem;
 }
-  
 
-  .hero-subheader {
-    color: #878493;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin: 0 0 2rem 5rem;
-    line-height: 30px;
-    max-height: 200px;
-  }
-  .hero-button-text {
-    background-color: #7232b6 !important;
-    outline-color: none !important;
-    border-color: #5d2896 !important;
-    margin: 1rem 0 2rem 5rem ;
-    width: 220px;
-    height: 65px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 0.50rem;
-    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
+.hero-subheader {
+  color: #878493;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0 0 2rem 5rem;
+  line-height: 30px;
+  max-height: 200px;
+}
+.hero-button-text {
+  background-color: #7232b6 !important;
+  outline-color: none !important;
+  border-color: #5d2896 !important;
+  margin: 1rem 0 2rem 5rem;
+  width: 220px;
+  height: 65px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
-.hero-button-text:hover{
-      background-color: #A568E4 !important;
-    }
-  .text-responsive {
-    font-size: calc(100% + 3vw + 0.3vh);
-  }
-  
-  
+.hero-button-text:hover {
+  background-color: #a568e4 !important;
+}
+.text-responsive {
+  font-size: calc(100% + 3vw + 0.3vh);
+}
+
+.middle-section {
+  background-image: url("../../../assets/img/middle-section.png");
+  grid-column: 2 / auto;
+}
+
+.middle-section-number {
+  display: flex;
+  width: 72px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  border: 3px solid;
+  border-color: $blue-500;
+  color: $blue-500;
+  background-color: $blue-100;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.middle-section-sub-text {
+  font-size: clamp(22px, 2.5vw, 24px);
+  line-height: 1.375;
+  margin-bottom: 0.5rem;
+  color: $blue-500;
+  font-weight: 600;
+}
+
+.middle-section-header {
+  font-size: clamp(32px, 4vw, 40px);
+  font-weight: 700;
+}
+.divider {
+  width: 10rem;
+  margin: 1.5rem auto;
+  border-color: $blue-500;
+}
+
+.middle-section-paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
